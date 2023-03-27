@@ -1,0 +1,122 @@
+
+    /* css reset */
+    body {
+        font-family: 'Alkatra', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('BG.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+        display: inline-block;
+
+    }
+
+    .mid {
+        display: block;
+        width: 37%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 22px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 95px;
+    }
+
+    .left div {
+        line-height: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .btn {
+        font-family: 'Alkatra', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btnn {
+        font-family: 'Alkatra', cursive;
+        margin: 20px auto;
+        background-color: transparent;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+        width: 82%;
+    }
+
+    .btn:hover {
+        background-color: rgb(37, 36, 36);
+    }
+    .btnn:hover {
+        background-color: rgb(37, 36, 36);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 117px 90px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        font-family: 'Alkatra', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
